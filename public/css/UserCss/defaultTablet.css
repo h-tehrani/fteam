@@ -1,0 +1,311 @@
+/* Tablet resolution min 500 px */
+@font-face {
+    font-family:Yekan;
+    src:url('../../Fonts/Yekan.eot') format('eot'),
+    url('../../Fonts/Yekan.woff') format('woff'),
+    url('../../Fonts/Yekan.ttf') format('truetype');
+}
+@font-face {
+    font-family:parastoo;
+    src:url('../../Fonts/Parastoo.eot') format('eot'),
+    url('../../Fonts/Parastoo.woff') format('woff'),
+    url('../../Fonts/Parastoo.ttf') format('truetype');
+}
+@font-face {
+    font-family:dragz ;
+    src:url('../../Fonts/62DRAGZ.eot') format('eot'),
+    url('../../Fonts/62DRAGZ.woff') format('woff'),
+    url('../../Fonts/62DRAGZ.ttf') format('truetype');
+}
+@font-face {
+    font-family:beautiMountains;
+    src:url('../../Fonts/BeautyMountainsPersonalUse.eot') format('eot'),
+    url('../../Fonts/BeautyMountainsPersonalUse.woff') format('woff'),
+    url('../../Fonts/BeautyMountainsPersonalUse.ttf') format('truetype');
+}
+#headerDefault{
+    display:none;
+}
+.loginMobile{
+    display:none;
+}
+#footer
+{
+    font-family: parastoo;
+    opacity:0.9;
+    width:100%;
+
+}
+#header{
+    font-family: parastoo;
+}
+body{
+    background-image:url('../Pic/adminbackground.jpg');
+    background-repeat: no-repeat, repeat;
+    font-family:Yekan;
+}
+
+#show_time_1{
+    margin-top:20%;
+    font-size:18px;
+    color: whitesmoke;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:dragz;
+    animation-name: show_time_1;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+#show_time_1Admin{
+    font-size:15px;
+    color: whitesmoke;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes show_time_1  {
+    0%   {color: #d7ff3d;opacity:0.9;}
+    25%  {color: #a3ff3d;opacity:0.8;}
+    50%  {color: #27ff05;opacity:0.7;}
+    75%  {color: #a3ff3d;opacity:0.8;}
+    100% {color: #d7ff3d;opacity:0.9;}
+}
+
+#show_time_2{
+    margin-top:1%;
+    font-size:20px;
+    color: white;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:parastoo;
+    animation-name: show_time_2;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+#show_time_2Admin{
+    margin-top:2%;
+    margin-bottom:5%;
+    font-size:14px;
+    color: white;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+@keyframes show_time_2  {
+    0%   {color: #d7ff3d;opacity:0.6}
+    25%  {color: #a3ff3d;opacity:0.5}
+    50%  {color: #27ff05;opacity:0.4}
+    75%  {color: #a3ff3d;opacity:0.5}
+    100% {color: #d7ff3d;opacity:0.6}
+}
+
+#BSS{
+    font-size:20px;
+    margin:12px;
+}
+#BAS{
+    font-size:20px;
+    margin:12px;
+}
+#BPS{
+    font-size:20px;
+    margin:12px;
+}
+
+#BLS{
+    font-size:20px;
+    margin:12px;
+}
+
+.primaryButtonIndex{
+    margin-top:3%;
+    text-align:center;
+    opacity:0.9;
+}
+
+.sentence{
+    display:table;
+    margin-top:0%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.fteamLogo{
+    font-family:dragz;
+    text-align: left;
+    font-size:20px;
+    animation-name: fteamLogo;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+@keyframes fteamLogo  {
+    0%   {color:black;opacity:0.8}
+    25%  {color:#490503;opacity:0.6}
+    50%  {color: #86040b;opacity:0.4}
+    75%  {color:#490503;opacity:0.2}
+    100% {color:black;opacity:0.1}
+}
+.fteamLogoFirst{
+    font-family:dragz;
+    text-align: left;
+    font-size:14px;
+    animation-name: fteamLogoFirst;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+}
+@keyframes fteamLogoFirst  {
+    0%   {color:black;opacity:0.1}
+    25%  {color:black;opacity:0.8}
+    50%  {color: #490503;opacity:0.6}
+    75%  {color:#86040b;opacity:0.4}
+    100% {color:#490503;opacity:0.2}
+}
+.fteamLogoFinal{
+    font-family:dragz;
+    text-align: left;
+    font-size:11px;
+    animation-name: fteamLogoFinal;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes fteamLogoFinal  {
+    0%   {color:#490503;opacity:0.2}
+    25%  {color:black;opacity:0.1}
+    50%  {color:black;opacity:0.8}
+    75%  {color:#490503;opacity:0.6}
+    100% {color:#86040b;opacity:0.4}
+}
+.fteamLogoForever{
+    font-family:dragz;
+    text-align: left;
+    font-size:8px;
+    animation-name: fteamLogoForever;
+    animation-duration:1s;
+    animation-iteration-count:infinite;
+
+}
+@keyframes fteamLogoForever  {
+    0%   {color:#86040b;opacity:0.4}
+    25%  {color:#490503;opacity:0.2}
+    50%  {color:black;opacity:0.1}
+    75%  {color:black;opacity:0.8}
+    100% {color:#490503;opacity:0.6}
+}
+
+.nav-link
+{
+    color:white !important;
+}
+.siteServiceCard{
+    direction:rtl;
+    border-color: #34b200;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
+.BodyCard{
+    margin-top:1%;
+    background-color:whitesmoke;
+    border-radius:20px;
+    border-style:solid;
+    border-width:4px;
+    border-top-color: #ff0007;
+    border-left-color: #324042;
+    border-right-color: #324042;
+    border-bottom-color: #ff0007;
+    overflow: hidden;
+    padding:2%;
+}
+siteServiceCardDetails{
+}
+.siteServiceDetail{
+    font-family:Yekan;
+    font-size:11px;
+    text-justify: auto;
+    direction: rtl;
+}
+.siteServiceSubDetail{
+    text-align: center;
+    font-family:parastoo;
+    font-weight: 900;
+    font-size:8px;
+    text-justify: auto;
+    direction: rtl;
+    color:red;
+    animation-name: siteServiceSubDetail;
+    animation-duration:10s;
+    animation-iteration-count: infinite;
+}
+@keyframes siteServiceSubDetail {
+    0%   {color:red;}
+    25%  {color:black;}
+    50%  {color:deeppink;}
+    75%  {color:black;}
+    100% {color:red;}
+}
+
+.siteServiceURL{
+    font-family:beautiMountains;
+    text-align:center;
+    font-size:14px;
+    color:lightslategray;
+    animation-name: siteServiceURL;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes siteServiceURL {
+    from {color: lightslategray;}
+    to {color: red;}
+}
+
+
+.infoOfUs{
+    opacity:0.9
+}
+
+.infoOfUs1{
+    opacity:0.9
+}
+
+.mainJobs{
+    width:90%;
+}
+.post{
+    opacity:0.9;
+}
+
+.postTitle{
+    opacity:0.9;
+}
+
+.postContent{
+    opacity:0.8;
+}
+
+.prices{
+    opacity:0.85;
+}
+#readySiteBox{
+    border-style:solid;
+    border-width:3px;
+    min-height:600px;
+    border-color:orange;
+    width:35%;
+    min-width:300px;
+    float:right;
+}
+#orderSiteBox{
+    border-style:solid;
+    border-width:3px;
+    min-height:600px;
+    border-color:orange;
+    width:35%;
+    min-width:300px;
+    float:left;"
+}
